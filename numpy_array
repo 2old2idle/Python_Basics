@@ -1,0 +1,37 @@
+import numpy as np
+arr1 = np.array([1, 2, 3, 4, 5])  # 1D array
+arr2 = np.array([[1, 2, 3], [4, 5, 6]])  # 2D array (Matrix)
+arr3 = np.zeros((3, 3))  # 3x3 array of zeros
+arr4 = np.ones((2, 4))  # 2x4 array of ones
+arr5 = np.arange(0, 10, 2)  # Array from 0 to 10 (step of 2)
+arr6 = np.linspace(1, 10, 5)  # 5 evenly spaced numbers between 1 and 10
+arr7 = np.random.rand(3, 3)  # 3x3 matrix with random values
+
+print("1D Array:", arr1)
+print("2D Array:\n", arr2)
+print("Zeros Array:\n", arr3)
+print("Ones Array:\n", arr4)
+print("Arange Array:", arr5)
+print("Linspace Array:", arr6)
+print("Random Array:\n", arr7)
+
+'''
+results: 
+1D Array: [1 2 3 4 5]
+2D Array:
+ [[1 2 3]
+ [4 5 6]]
+Zeros Array:
+ [[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]
+Ones Array:
+ [[1. 1. 1. 1.]
+ [1. 1. 1. 1.]]
+Arange Array: [0 2 4 6 8]
+Linspace Array: [ 1.    3.25  5.5   7.75 10.  ]
+Random Array:
+ [[0.55478736 0.79793268 0.34203762]
+ [0.49941832 0.46354918 0.54877003]
+ [0.7235956  0.79841194 0.96975965]]
+'''
